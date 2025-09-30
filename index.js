@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Next day updates");
+  res.send("Khushi is good girl");
 });
 
 const PORT = process.env.PORT || 3000;
